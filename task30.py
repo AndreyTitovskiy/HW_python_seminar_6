@@ -7,7 +7,8 @@ a = int(input('Введите превый элемент: '))
 n = int(input('Введите разность прогрессии: '))
 d = int(input('Введите количество элементов: '))
 rez = []
-for i in range (d)
-
-
+for i in range (d):
+    rez.append(a + i * n)
+for element in rez:
+    print(element)
 
